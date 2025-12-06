@@ -2,7 +2,7 @@
     font-size: 1.2em;
     font-weight: 700;
     color: var(--cinza-escuro-titulos-);
-    margin: 1em;
+    margin: 0.5em 1em;
 }
 
 .container-consulta-remota {
@@ -64,4 +64,34 @@
 .consulta-remota__icone-chat {
     width: 32px;
     height: 32px;
+}
+
+.consulta-remota__pt2 {
+    padding: 1em;
+}
+
+.consulta-remota__pt2-texto {
+    color: var(--cinza-escuro-titulos-);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.consulta-remota__pt3 {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.consulta-remota__botao {
+    padding: 1.2em 1.5em;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    font-family: var(--font-Montserrat-);
+}
+
+#botao-video {
+    background-color: var(--laranja-botao-);
+    color: var(--branco-background-);
 }
