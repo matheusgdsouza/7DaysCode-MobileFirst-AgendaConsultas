@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(./style/cabecalho.css);
+@import url(./style/consulta-remota.css);
 
 :root {
-    --font-cabecalho- : "Montserrat", sans-serif;
+    --font-Montserrat- : "Montserrat", sans-serif;
     --cinza-escuro-titulos- : #464646;
     --conza-claro-textos- : #A3A3A3;
     --branco-background- : #FFFFFF;
@@ -11,4 +12,5 @@
 
 body {
     background-color: var(--cor-background-body-);
+    font-family: var(--font-Montserrat-);
 }
