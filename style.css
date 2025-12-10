@@ -2,6 +2,7 @@
 @import url(./style/cabecalho.css);
 @import url(./style/consulta-remota.css);
 @import url(./style/consulta-local.css);
+@import url(./style/rodape.css);
 
 :root {
     --font-Montserrat- : "Montserrat", sans-serif;
