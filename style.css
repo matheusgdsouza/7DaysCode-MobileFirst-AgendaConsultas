@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(./style/cabecalho.css);
 @import url(./style/consulta-remota.css);
+@import url(./style/consulta-local.css);
 
 :root {
     --font-Montserrat- : "Montserrat", sans-serif;
@@ -9,6 +10,7 @@
     --branco-background- : #FFFFFF;
     --cor-background-body- : #f2f8ff;
     --laranja-botao- : #FFB050;
+    --azul-botao- : #4894FF;
 }
 
 body {

@@ -1,0 +1,80 @@
+.container-consulta-local {
+    width: 90%;
+    background-color: var(--branco-background-);
+    margin: 1em auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.consulta-local__pt1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 1em;
+    border-bottom: 1px solid var(--conza-claro-textos-);
+}
+
+.consulta-local__icone-paciente {
+    width: 32px;
+    height: 32px;
+}
+
+.consulta-local__pt1-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+
+.consulta-local__titulo {
+    font-size: 1em;
+    color: var(--cinza-escuro-titulos-);
+    font-weight: 700;
+}
+
+.consulta-local__icone-mapa {
+    width: 16px;
+    height: 16px;
+}
+
+.consulta-local__subtitulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    color: var(--conza-claro-textos-);
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.consulta-local__icone-chat {
+    width: 32px;
+    height: 32px;
+}
+
+.consulta-local__pt2 {
+    padding: 1em;
+}
+
+.consulta-local__pt2-texto {
+    color: var(--cinza-escuro-titulos-);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.consulta-locao__pt3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.consulta-local__botao {
+    width: 90%;
+    padding: 1.2em 1.5em;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    font-family: var(--font-Montserrat-);
+    background-color: var(--azul-botao-);
+    color: var(--branco-background-);
+}
