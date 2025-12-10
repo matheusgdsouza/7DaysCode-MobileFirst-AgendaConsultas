@@ -17,3 +17,7 @@ body {
     background-color: var(--cor-background-body-);
     font-family: var(--font-Montserrat-);
 }
+
+.agenda__dia-seguinte {
+    margin: 3em 0;
+}
