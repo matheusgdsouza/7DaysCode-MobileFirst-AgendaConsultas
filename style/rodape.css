@@ -56,3 +56,89 @@
 #titulo-consultas {
     color: var(--azul-botao-);
 }
+
+.container__botao-flutuante {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 14px;
+    align-items: end;
+}
+
+.menu-flutuante__opc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+}
+
+.menu-flutuante__opcoes {
+    display: none;
+    margin: 0 0.5em;
+    z-index: 1000;
+}
+
+.menu-flutuante__descricao {
+    background-color: #FFFFFF;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+    font-size: 0.75em;
+}
+
+.menu-flutuante__icone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: var(--azul-botao-);
+    border-radius: 50%;
+}
+
+.menu-flutuante__img {
+    width: 24px;
+    height: 24px;
+}
+
+.rotulo-botao-flutuante {
+    z-index: 1000; 
+}
+
+
+#overlay {
+    /* 1. Cobertura Total e Posição Fixa */
+    position: fixed; /* Fixa o elemento na janela de visualização */
+    top: 0;          /* Começa no topo */
+    left: 0;         /* Começa na esquerda */
+    width: 100%;     /* Ocupa a largura total */
+    height: 100%;    /* Ocupa a altura total */
+
+    /* 2. O Segredo da Opacidade e Cor */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de transparência */
+
+    /* 3. Camada de Prioridade */
+    z-index: 999;    /* Garante que ele fique acima de todo o conteúdo da página */
+
+    /* 4. Estado Inicial */
+    display: none;   /* Oculta o overlay por padrão */
+}
+
+.input-botao-flutuante:checked ~ .menu-flutuante__opcoes {
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input-botao-flutuante:checked ~ #overlay {
+    display: block;
+}
+
+
+
+
+
+
