@@ -78,3 +78,10 @@
     background-color: var(--azul-botao-);
     color: var(--branco-background-);
 }
+
+@media (min-width: 1024px) {
+    .container-consulta-local {
+        width: 25%;
+        margin: 0.5em;
+    }
+}

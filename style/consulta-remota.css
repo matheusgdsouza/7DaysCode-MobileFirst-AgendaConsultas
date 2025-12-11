@@ -95,3 +95,10 @@
     background-color: var(--laranja-botao-);
     color: var(--branco-background-);
 }
+
+@media (min-width: 1024px) {
+    .container-consulta-remota {
+        width: 25%;
+        margin: 0.5em;
+    }
+}

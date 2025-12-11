@@ -22,3 +22,12 @@ body {
 .agenda__dia-seguinte {
     margin: 3em 0;
 }
+
+@media (min-width: 1024px) {
+    .agenda-hoje, .agenda__dia-seguinte, .agenda__quarta-feira {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 32px;
+    }
+}
