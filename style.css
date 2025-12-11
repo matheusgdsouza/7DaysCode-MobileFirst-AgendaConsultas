@@ -19,8 +19,8 @@ body {
     font-family: var(--font-Montserrat-);
 }
 
-.agenda__dia-seguinte {
-    margin: 3em 0;
+.conteudo-principal__titulo {
+    margin-top: 3em;
 }
 
 @media (min-width: 1024px) {
