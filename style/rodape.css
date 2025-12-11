@@ -25,6 +25,10 @@
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
 }
 
+.input-botao-flutuante {
+    display: none;
+}
+
 .menu-rodape {
     display: flex;
     flex-direction: row;
