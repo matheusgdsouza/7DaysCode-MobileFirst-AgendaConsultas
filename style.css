@@ -24,6 +24,11 @@ body {
 }
 
 @media (min-width: 1024px) {
+    .cabecalho__icone {
+        width: 96px;
+        height: 96px;
+    }
+
     .agenda-hoje, .agenda__dia-seguinte, .agenda__quarta-feira {
         display: flex;
         flex-wrap: wrap;

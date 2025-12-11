@@ -101,4 +101,9 @@
         width: 25%;
         margin: 0.5em;
     }
+
+    .consulta-remota__icone-paciente {
+        width: 48px;
+        height: 48px;
+    }
 }
